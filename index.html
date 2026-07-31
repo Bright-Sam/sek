@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEK Legacy Services — Freight Coordination &amp; Invoicing</title>
+<meta name="description" content="SEK Legacy Services coordinates freight and manages invoicing for carriers, fleets and brokers — precision in motion, clarity in the numbers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+  <div class="nav-wrap">
+    <a href="#top" class="brand">
+      <img src="sek-logo.png" alt="SEK Legacy Services logo">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#about">About
+            <svg class="caret" viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html" target="_blank" rel="noopener">Our Team</a></li>
+            <li><a href="history.html" target="_blank" rel="noopener">History</a></li>
+            <li><a href="mission-vision.html" target="_blank" rel="noopener">Mission &amp; Vision</a></li>
+            <li><a href="careers.html" target="_blank" rel="noopener">Careers</a></li>
+          </ul>
+        </li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How We Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-ghost">Contact Us</a>
+      <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.mobile-nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav">
+    <a href="#top">Home</a>
+    <a href="#about">About</a>
+    <div class="mobile-submenu">
+      <a href="team.html" target="_blank" rel="noopener">Our Team</a>
+      <a href="history.html" target="_blank" rel="noopener">History</a>
+      <a href="mission-vision.html" target="_blank" rel="noopener">Mission &amp; Vision</a>
+      <a href="careers.html" target="_blank" rel="noopener">Careers</a>
+    </div>
+    <a href="#services">Services</a>
+    <a href="#process">How We Work</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-primary">Get a Quote</a>
+  </nav>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="ring-device" aria-hidden="true">
+    <svg viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="98" fill="none" stroke="var(--ring-1)" stroke-width="1"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke="var(--ring-2)" stroke-width="1"/>
+      <line x1="100" y1="0" x2="100" y2="200" stroke="var(--ring-1)" stroke-width="1"/>
+      <line x1="0" y1="100" x2="200" y2="100" stroke="var(--ring-1)" stroke-width="1"/>
+    </svg>
+  </div>
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <div class="eyebrow">Freight &amp; Financial Operations</div>
+      <h1>Precision in motion. <em>Clarity in the numbers.</em></h1>
+      <p class="lead">SEK Legacy Services keeps freight moving and books balanced — coordinating loads and managing invoicing so carriers, fleets and brokers get paid accurately and on time.</p>
+      <div class="hero-cta">
+        <a href="#services" class="btn btn-primary">Our Services</a>
+        <a href="#contact" class="btn btn-ghost">Request a Call Back</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal in">
+      <div class="compass-hero">
+        <svg viewBox="0 0 400 400">
+          <circle cx="200" cy="200" r="190" fill="none" stroke="var(--olive-600)" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="200" cy="200" r="140" fill="none" stroke="var(--green-600)" stroke-width="1.5" opacity="0.55"/>
+          <line x1="200" y1="10" x2="200" y2="390" stroke="var(--olive-600)" stroke-width="1.5" opacity="0.5"/>
+          <line x1="10" y1="200" x2="390" y2="200" stroke="var(--olive-600)" stroke-width="1.5" opacity="0.5"/>
+        </svg>
+        <div class="compass-badge">
+          <strong id="statOnTime">98%</strong>
+          <span>On-Time Delivery</span>
+        </div>
+      </div>
+      <div class="float-card fc-1"><span class="dot"></span>Load #4471 — Documented</div>
+      <div class="float-card fc-2"><span class="dot" style="background:var(--brown-600);"></span>Invoice #2209 — Paid</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <div class="eyebrow">Who We Are</div>
+      <h2>Two disciplines. One dependable partner.</h2>
+    </div>
+    <div class="about-copy reveal">
+      <p>Freight only pays off when the paperwork is right behind it. SEK Legacy Services was built around that reality — pairing hands-on load coordination with disciplined invoicing and billing, so nothing slips through the gap between the road and the ledger.</p>
+      <p>We work as an extension of your back office: tracking loads, preparing and submitting invoices, chasing down documentation, and keeping your financial records clean and current. Carriers, owner-operators, fleets and freight brokers rely on us to handle the operational and administrative load so they can focus on the business itself.</p>
+      <div class="stats-grid">
+        <div class="stat-card"><strong>1,200+</strong><span>Loads Coordinated</span></div>
+        <div class="stat-card"><strong>3,800+</strong><span>Invoices Processed</span></div>
+        <div class="stat-card"><strong>98%</strong><span>On-Time Delivery Rate</span></div>
+        <div class="stat-card"><strong>24–48h</strong><span>Average Invoice Turnaround</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services" id="services">
+  <div class="ring-device" aria-hidden="true">
+    <svg viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="98" fill="none" stroke="var(--ring-1)" stroke-width="1"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke="var(--ring-2)" stroke-width="1"/>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">What We Do</div>
+      <h2>Built for carriers, fleets and brokers</h2>
+      <p>Every service below can stand alone or work together as a full back-office solution — you choose the level of support your operation needs.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16V6a1 1 0 0 1 1-1h9v11"/><path d="M13 9h4l3 3v4h-2"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></div>
+        <h3>Freight Dispatch &amp; Load Coordination</h3>
+        <p>End-to-end load planning, driver coordination and routing so shipments move on schedule with minimal downtime.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6l1 4H8l1-4Z"/><path d="M5 6h14l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6Z"/><path d="M10 11v6M14 11v6"/></svg></div>
+        <h3>Invoicing &amp; Billing Management</h3>
+        <p>Accurate, timely invoice preparation and submission — built to reduce payment delays and billing disputes.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h6"/></svg></div>
+        <h3>Documentation &amp; Compliance</h3>
+        <p>Bills of lading, PODs and compliance paperwork organized and filed correctly, every time, for every load.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Carrier &amp; Client Account Management</h3>
+        <p>A dedicated point of contact tracking every account's loads, invoices and outstanding items in one place.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-6 3 4 5-8"/></svg></div>
+        <h3>Financial Reporting &amp; Reconciliation</h3>
+        <p>Clear, regular reporting on receivables, payment status and cash flow — so you always know where things stand.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg></div>
+        <h3>Back-Office Support</h3>
+        <p>Flexible administrative support for owner-operators and small fleets who need dependable help without hiring in-house.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">How We Work</div>
+      <h2>From pickup to paid, in five steps</h2>
+      <p>A consistent process behind every load and every invoice — so nothing depends on memory or guesswork.</p>
+    </div>
+    <div class="process-list">
+      <div class="process-step reveal">
+        <div class="process-num">01</div>
+        <h4>Onboarding &amp; Setup</h4>
+        <p>We learn your lanes, clients and billing requirements before the first load moves.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">02</div>
+        <h4>Dispatch &amp; Coordination</h4>
+        <p>Loads are planned, assigned and tracked from pickup through delivery.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">03</div>
+        <h4>Documentation Check</h4>
+        <p>PODs and paperwork are collected and verified against each load.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">04</div>
+        <h4>Invoicing &amp; Submission</h4>
+        <p>Invoices are prepared and submitted promptly, with backup documentation attached.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">05</div>
+        <h4>Tracking &amp; Reporting</h4>
+        <p>Payments are tracked to completion, with regular reporting back to you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY / FEATURES ===================== -->
+<section class="why">
+  <div class="ring-device" aria-hidden="true">
+    <svg viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="98" fill="none" stroke-width="1"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke-width="1"/>
+      <line x1="100" y1="0" x2="100" y2="200" stroke-width="1"/>
+      <line x1="0" y1="100" x2="200" y2="100" stroke-width="1"/>
+    </svg>
+  </div>
+  <div class="container why-grid">
+    <div class="reveal">
+      <div class="eyebrow" style="color:var(--olive-300);">Why SEK</div>
+      <h2>Support that pays attention to detail</h2>
+      <p class="lead">We treat every load and every invoice as if it were our own operation on the line — because your cash flow depends on us getting it right.</p>
+    </div>
+    <div class="feature-list">
+      <div class="feature-item reveal">
+        <h4>Dedicated Account Support</h4>
+        <p>A named contact who knows your operation, not a rotating queue.</p>
+      </div>
+      <div class="feature-item reveal">
+        <h4>Fast Invoice Turnaround</h4>
+        <p>Invoices go out within 24–48 hours of a completed, documented load.</p>
+      </div>
+      <div class="feature-item reveal">
+        <h4>Accurate Documentation</h4>
+        <p>Every load is checked against required paperwork before billing.</p>
+      </div>
+      <div class="feature-item reveal">
+        <h4>Transparent Reporting</h4>
+        <p>Know exactly what's outstanding, paid, or pending at any time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA BANNER ===================== -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <div>
+        <h2>Ready to simplify dispatch and invoicing?</h2>
+        <p>Tell us about your operation and we'll put together a plan for how SEK Legacy Services can support it.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary">Request a Call Back</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER / CONTACT ===================== -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="sek-logo.png" alt="SEK Legacy Services logo">
+        <p>Freight coordination and invoicing support for carriers, fleets and brokers who need their operations and their books handled with the same precision.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.99 5.99 0 0 1 16 8Z"/><rect x="2" y="8" width="4" height="13"/><circle cx="4" cy="3" r="1.5" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
+          <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How We Work</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Dispatch &amp; Load Coordination</a></li>
+          <li><a href="#services">Invoicing &amp; Billing</a></li>
+          <li><a href="#services">Documentation &amp; Compliance</a></li>
+          <li><a href="#services">Account Management</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get In Touch</h5>
+        <ul>
+          <li>Phone: (000) 000-0000</li>
+          <li>Email: info@seklegacyservices.com</li>
+          <li>Mon–Fri: 8:30am – 5:00pm</li>
+          <li>Sat–Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SEK Legacy Services. All rights reserved.</span>
+      <span><a href="#top">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal on scroll
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.15});
+  revealEls.forEach(el=>io.observe(el));
+
+  // Close mobile nav on link click
+  document.querySelectorAll('.mobile-nav a').forEach(a=>{
+    a.addEventListener('click', ()=>document.querySelector('.mobile-nav').classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
