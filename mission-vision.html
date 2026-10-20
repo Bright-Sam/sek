@@ -3,59 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0A5C24">
+<link rel="icon" href="sek-logo.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css"><script src="site-config.js"></script>
 <title>Mission &amp; Vision — SEK Legacy Services</title>
 <meta name="description" content="The mission, vision and values behind SEK Legacy Services.">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <div class="nav-wrap">
-    <a href="index.html" class="brand">
-      <img src="sek-logo.png" alt="SEK Legacy Services logo">
+    <a data-nav href="index.html" class="brand">
+      <img src="sek-logo.png" alt="SEK Legacy Services logo" width="180" height="52">
     </a>
     <nav class="main-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a data-nav href="index.html">Home</a></li>
         <li class="has-dropdown">
-          <a href="index.html#about">About
+          <a data-nav href="index.html#about">About
             <svg class="caret" viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="team.html" target="_blank" rel="noopener">Our Team</a></li>
-            <li><a href="history.html" target="_blank" rel="noopener">History</a></li>
-            <li><a href="mission-vision.html" target="_blank" rel="noopener">Mission &amp; Vision</a></li>
-            <li><a href="careers.html" target="_blank" rel="noopener">Careers</a></li>
+            <li><a data-nav href="team.html" >Our Team</a></li>
+            <li><a data-nav href="history.html" >History</a></li>
+            <li><a data-nav href="mission-vision.html" >Mission &amp; Vision</a></li>
+            <li><a data-nav href="careers.html" >Careers</a></li>
           </ul>
         </li>
-        <li><a href="index.html#services">Services</a></li>
-        <li><a href="index.html#process">How We Work</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a data-nav href="index.html#services">Services</a></li>
+        <li><a data-nav href="index.html#process">How We Work</a></li>
+        <li><a data-nav href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="header-actions">
-      <a href="index.html#contact" class="btn btn-ghost">Contact Us</a>
-      <a href="index.html#contact" class="btn btn-primary">Get a Quote</a>
+      <a data-nav href="contact.html" class="btn btn-ghost">Contact Us</a>
+      <a data-nav href="quote.html" class="btn btn-primary">Get a Quote</a>
       <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.mobile-nav').classList.toggle('open')">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <nav class="mobile-nav">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
+    <a data-nav href="index.html">Home</a>
+    <a data-nav href="index.html#about">About</a>
     <div class="mobile-submenu">
-      <a href="team.html" target="_blank" rel="noopener">Our Team</a>
-      <a href="history.html" target="_blank" rel="noopener">History</a>
-      <a href="mission-vision.html" target="_blank" rel="noopener">Mission &amp; Vision</a>
-      <a href="careers.html" target="_blank" rel="noopener">Careers</a>
+      <a data-nav href="team.html" >Our Team</a>
+      <a data-nav href="history.html" >History</a>
+      <a data-nav href="mission-vision.html" >Mission &amp; Vision</a>
+      <a data-nav href="careers.html" >Careers</a>
     </div>
-    <a href="index.html#services">Services</a>
-    <a href="index.html#process">How We Work</a>
-    <a href="index.html#contact">Contact</a>
-    <a href="index.html#contact" class="btn btn-primary">Get a Quote</a>
+    <a data-nav href="index.html#services">Services</a>
+    <a data-nav href="index.html#process">How We Work</a>
+    <a data-nav href="contact.html">Contact</a>
+    <a data-nav href="quote.html" class="btn btn-primary">Get a Quote</a>
   </nav>
 </header>
 <section class="page-hero">
@@ -68,7 +71,7 @@
     </svg>
   </div>
   <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html#about">About</a><span>/</span><span>Mission &amp; Vision</span></div>
+    <div class="breadcrumb"><a data-nav href="index.html">Home</a><span>/</span><a data-nav href="index.html#about">About</a><span>/</span><span>Mission &amp; Vision</span></div>
     <div class="eyebrow">About &mdash; Mission &amp; Vision</div>
     <h1>What drives SEK Legacy Services</h1>
     <p class="lead">The principles behind how we coordinate freight and manage invoicing, every single day.</p>
@@ -118,38 +121,38 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="sek-logo.png" alt="SEK Legacy Services logo">
+        <img src="sek-logo.png" alt="SEK Legacy Services logo" width="180" height="52">
         <p>Freight coordination and invoicing support for carriers, fleets and brokers who need their operations and their books handled with the same precision.</p>
         <div class="social-links">
-          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg></a>
-          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
-          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.99 5.99 0 0 1 16 8Z"/><rect x="2" y="8" width="4" height="13"/><circle cx="4" cy="3" r="1.5" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
-          <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+          <a data-sek-social="facebook" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg></a>
+          <a data-sek-social="instagram" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
+          <a data-sek-social="linkedin" href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.99 5.99 0 0 1 16 8Z"/><rect x="2" y="8" width="4" height="13"/><circle cx="4" cy="3" r="1.5" fill="rgba(250,247,239,0.85)" stroke="none"/></svg></a>
+          <a data-sek-social="x" href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
         </div>
       </div>
       <div>
         <h5>Company</h5>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about">About Us</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#process">How We Work</a></li>
+          <li><a data-nav href="index.html">Home</a></li>
+          <li><a data-nav href="index.html#about">About Us</a></li>
+          <li><a data-nav href="index.html#services">Services</a></li>
+          <li><a data-nav href="index.html#process">How We Work</a></li>
         </ul>
       </div>
       <div>
         <h5>About</h5>
         <ul>
-          <li><a href="team.html" target="_blank" rel="noopener">Our Team</a></li>
-          <li><a href="history.html" target="_blank" rel="noopener">History</a></li>
-          <li><a href="mission-vision.html" target="_blank" rel="noopener">Mission &amp; Vision</a></li>
-          <li><a href="careers.html" target="_blank" rel="noopener">Careers</a></li>
+          <li><a data-nav href="team.html" >Our Team</a></li>
+          <li><a data-nav href="history.html" >History</a></li>
+          <li><a data-nav href="mission-vision.html" >Mission &amp; Vision</a></li>
+          <li><a data-nav href="careers.html" >Careers</a></li>
         </ul>
       </div>
       <div>
         <h5>Get In Touch</h5>
         <ul>
-          <li>Phone: (000) 000-0000</li>
-          <li>Email: info@seklegacyservices.com</li>
+          <li>Phone: <a data-sek-phone href="#">(000) 000-0000</a></li>
+          <li>Email: <a data-sek-email href="mailto:jackhazel77@gmail.com">jackhazel77@gmail.com</a></li>
           <li>Mon&ndash;Fri: 8:30am &ndash; 5:00pm</li>
           <li>Sat&ndash;Sun: Closed</li>
         </ul>
@@ -157,7 +160,7 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 SEK Legacy Services. All rights reserved.</span>
-      <span><a href="index.html">Terms &amp; Conditions</a></span>
+      <span><a data-nav href="terms.html">Terms &amp; Conditions</a> · <a data-nav href="privacy.html">Privacy</a></span>
     </div>
   </div>
 </footer>
@@ -174,5 +177,6 @@
     a.addEventListener('click', ()=>document.querySelector('.mobile-nav').classList.remove('open'));
   });
 </script>
+<script>document.querySelectorAll("[data-sek-phone]").forEach(e=>{e.textContent="Phone: "+SEK_CONFIG.phoneDisplay;e.href=SEK_CONFIG.phoneTel?"tel:"+SEK_CONFIG.phoneTel:"#"});document.querySelectorAll("[data-sek-email]").forEach(e=>{e.textContent="Email: "+SEK_CONFIG.email;e.href="mailto:"+SEK_CONFIG.email});</script><script>document.querySelectorAll('[data-sek-social]').forEach(e=>{const u=SEK_CONFIG.social[e.dataset.sekSocial];if(u)e.href=u;else e.style.display='none'});</script><script src="app.js"></script>
 </body>
 </html>
