@@ -41,12 +41,12 @@
     <div class="header-actions">
       <a data-nav href="contact.html" class="btn btn-ghost">Contact Us</a>
       <a data-nav href="quote.html" class="btn btn-primary">Get a Quote</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.mobile-nav').classList.toggle('open')">
+      <button class="menu-toggle" aria-label="Toggle menu" type="button" aria-controls="mobile-navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
-  <nav class="mobile-nav">
+  <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation">
     <a data-nav href="index.html">Home</a>
     <a data-nav href="index.html#about">About</a>
     <div class="mobile-submenu">
